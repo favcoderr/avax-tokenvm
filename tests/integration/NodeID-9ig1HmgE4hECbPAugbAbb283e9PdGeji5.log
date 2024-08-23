@@ -1,0 +1,38 @@
+[08-23|00:52:43.300] INFO controller/controller.go:91 loaded config {"contents": {"preferredBlocksPerSecond":2,"gossipInterval":1000000000,"gossipMaxSize":2044723,"gossipProposerDiff":3,"gossipProposerDepth":2,"buildProposerDiff":2,"verifyTimeout":10,"traceEnabled":false,"traceSampleRate":0,"continuousProfilerDir":"","streamingBacklogSize":1024,"mempoolSize":2048,"mempoolPayerSize":32,"mempoolExemptPayers":null,"mempoolVerifyBalances":true,"trackedPairs":["*"],"testMode":true,"logLevel":"DEBUG","parallelism":3,"stateSyncServerDelay":0}}
+[08-23|00:52:43.300] INFO controller/controller.go:100 loaded genesis {"genesis": {"hrp":"token","maxBlockTxs":20000,"maxBlockUnits":1800000,"baseUnits":48,"validityWindow":60,"minUnitPrice":1,"unitPriceChangeDenominator":48,"windowTargetUnits":20000000,"minBlockCost":0,"blockCostChangeDenominator":48,"windowTargetBlocks":1000000,"warpBaseFee":1024,"warpFeePerSigner":128,"customAllocation":[{"address":"token1eyg5jc822sf3flcrenksqcqnu707amkhaf6svlgapl9czzustdts58tqya","balance":10000000}]}}
+[08-23|00:52:43.302] INFO controller/controller.go:151 running build and gossip in test mode
+[08-23|00:52:43.302] INFO orderbook/orderbook.go:50 tracking all order books
+[08-23|00:52:43.302] DEBUG vm/vm.go:266 genesis state created {"root": "7eRwiEu9euM2hKjfqAnnac4wBUT8aUKmdDesX3jxGB2Y1mA7y"}
+[08-23|00:52:43.302] INFO vm/vm.go:288 initialized vm from genesis {"block": "2w5FatiBwF3QxqzDHs5g8t36QvnX1rqroZSzZKfxh7qEysDb9x"}
+[08-23|00:52:43.303] INFO vm/vm.go:337 state sync client ready
+[08-23|00:52:43.303] INFO vm/vm.go:343 validity window ready
+[08-23|00:52:43.303] INFO vm/vm.go:349 node is now ready {"synced": false}
+[08-23|00:52:43.353] INFO gossiper/manual.go:102 AppGossip transactions are being submitted {"txs": 1}
+[08-23|00:52:43.354] INFO chain/builder.go:277 built block {"hght": 1, "attempted": 1, "added": 1, "mempool size": 0, "mempool lock wait": "3.38µs", "context": false, "state changes": 2, "state operations": 3}
+[08-23|00:52:43.354] INFO chain/block.go:330 skipping verification, already processed {"height": 1, "blkID": "2njX5WgHfEnPdg5xorPwLBygE26qF2vLAWkX9b7imK5FLhAhtJ"}
+[08-23|00:52:43.354] INFO vm/resolutions.go:116 verified block {"blkID": "2njX5WgHfEnPdg5xorPwLBygE26qF2vLAWkX9b7imK5FLhAhtJ", "height": 1, "txs": 1, "state ready": true}
+[08-23|00:52:43.354] DEBUG vm/vm.go:743 set preference {"id": "2njX5WgHfEnPdg5xorPwLBygE26qF2vLAWkX9b7imK5FLhAhtJ"}
+[08-23|00:52:43.354] INFO vm/resolutions.go:262 accepted block {"blkID": "2njX5WgHfEnPdg5xorPwLBygE26qF2vLAWkX9b7imK5FLhAhtJ", "height": 1, "txs": 1, "size": 506, "units": 472, "dropped mempool txs": 0, "state ready": true}
+[08-23|00:52:43.354] INFO vm/resolutions.go:203 block processed {"blkID": "2njX5WgHfEnPdg5xorPwLBygE26qF2vLAWkX9b7imK5FLhAhtJ", "height": 1}
+[08-23|00:52:43.355] INFO chain/builder.go:277 built block {"hght": 2, "attempted": 1, "added": 1, "mempool size": 0, "mempool lock wait": "1.42µs", "context": false, "state changes": 2, "state operations": 3}
+[08-23|00:52:43.356] INFO chain/block.go:330 skipping verification, already processed {"height": 2, "blkID": "S2jcoQQxFF8XJTHgFTkLJfuQ8omPwU1Haw2R4gKRoZhHedWaL"}
+[08-23|00:52:43.356] INFO vm/resolutions.go:116 verified block {"blkID": "S2jcoQQxFF8XJTHgFTkLJfuQ8omPwU1Haw2R4gKRoZhHedWaL", "height": 2, "txs": 1, "state ready": true}
+[08-23|00:52:43.356] DEBUG vm/vm.go:743 set preference {"id": "S2jcoQQxFF8XJTHgFTkLJfuQ8omPwU1Haw2R4gKRoZhHedWaL"}
+[08-23|00:52:43.356] INFO vm/resolutions.go:262 accepted block {"blkID": "S2jcoQQxFF8XJTHgFTkLJfuQ8omPwU1Haw2R4gKRoZhHedWaL", "height": 2, "txs": 1, "size": 506, "units": 472, "dropped mempool txs": 0, "state ready": true}
+[08-23|00:52:43.356] INFO vm/resolutions.go:203 block processed {"blkID": "S2jcoQQxFF8XJTHgFTkLJfuQ8omPwU1Haw2R4gKRoZhHedWaL", "height": 2}
+[08-23|00:52:43.356] INFO chain/builder.go:277 built block {"hght": 3, "attempted": 1, "added": 1, "mempool size": 0, "mempool lock wait": "1.49µs", "context": false, "state changes": 2, "state operations": 3}
+[08-23|00:52:43.356] INFO chain/block.go:330 skipping verification, already processed {"height": 3, "blkID": "UVnCzYHPqqB2NdbcN12KXsZ2XejJs5CYE6HocXXvbuHDXq8FW"}
+[08-23|00:52:43.356] INFO vm/resolutions.go:116 verified block {"blkID": "UVnCzYHPqqB2NdbcN12KXsZ2XejJs5CYE6HocXXvbuHDXq8FW", "height": 3, "txs": 1, "state ready": true}
+[08-23|00:52:43.356] DEBUG vm/vm.go:743 set preference {"id": "UVnCzYHPqqB2NdbcN12KXsZ2XejJs5CYE6HocXXvbuHDXq8FW"}
+[08-23|00:52:43.357] INFO chain/builder.go:277 built block {"hght": 4, "attempted": 1, "added": 1, "mempool size": 0, "mempool lock wait": "1.391µs", "context": false, "state changes": 2, "state operations": 3}
+[08-23|00:52:43.357] INFO chain/block.go:330 skipping verification, already processed {"height": 4, "blkID": "2mwvxAEKyod2bW6EeaWDjKpAdBBGUxNPmk4JWD2UFtorMQ3XSn"}
+[08-23|00:52:43.357] INFO vm/resolutions.go:116 verified block {"blkID": "2mwvxAEKyod2bW6EeaWDjKpAdBBGUxNPmk4JWD2UFtorMQ3XSn", "height": 4, "txs": 1, "state ready": true}
+[08-23|00:52:43.357] DEBUG vm/vm.go:743 set preference {"id": "2mwvxAEKyod2bW6EeaWDjKpAdBBGUxNPmk4JWD2UFtorMQ3XSn"}
+[08-23|00:52:43.357] INFO vm/resolutions.go:262 accepted block {"blkID": "UVnCzYHPqqB2NdbcN12KXsZ2XejJs5CYE6HocXXvbuHDXq8FW", "height": 3, "txs": 1, "size": 506, "units": 472, "dropped mempool txs": 0, "state ready": true}
+[08-23|00:52:43.357] INFO vm/resolutions.go:262 accepted block {"blkID": "2mwvxAEKyod2bW6EeaWDjKpAdBBGUxNPmk4JWD2UFtorMQ3XSn", "height": 4, "txs": 1, "size": 506, "units": 472, "dropped mempool txs": 0, "state ready": true}
+[08-23|00:52:43.357] INFO vm/resolutions.go:203 block processed {"blkID": "UVnCzYHPqqB2NdbcN12KXsZ2XejJs5CYE6HocXXvbuHDXq8FW", "height": 3}
+[08-23|00:52:43.357] INFO vm/resolutions.go:203 block processed {"blkID": "2mwvxAEKyod2bW6EeaWDjKpAdBBGUxNPmk4JWD2UFtorMQ3XSn", "height": 4}
+[08-23|00:52:43.358] DEBUG gossiper/manual.go:85 gossiped txs {"count": 1}
+[08-23|00:52:43.978] INFO rpc/jsonrpc_server.go:34 ping
+[08-23|00:52:43.979] INFO vm/resolutions.go:210 acceptor queue shutdown
+[08-23|00:52:43.979] INFO vm/warp_manager.go:101 stopping warp manager

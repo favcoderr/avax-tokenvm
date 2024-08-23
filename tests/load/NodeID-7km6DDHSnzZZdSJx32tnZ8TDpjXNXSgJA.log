@@ -1,0 +1,19 @@
+[08-23|00:52:43.296] INFO controller/controller.go:91 loaded config {"contents": {"preferredBlocksPerSecond":2,"gossipInterval":1000000000,"gossipMaxSize":2044723,"gossipProposerDiff":3,"gossipProposerDepth":2,"buildProposerDiff":2,"verifyTimeout":10,"traceEnabled":false,"traceSampleRate":0,"continuousProfilerDir":"","streamingBacklogSize":1024,"mempoolSize":1000,"mempoolPayerSize":1000,"mempoolExemptPayers":null,"mempoolVerifyBalances":true,"trackedPairs":null,"testMode":true,"logLevel":"INFO","parallelism":16,"stateSyncServerDelay":0}}
+[08-23|00:52:43.296] INFO controller/controller.go:100 loaded genesis {"genesis": {"hrp":"token","maxBlockTxs":20000,"maxBlockUnits":1800000,"baseUnits":48,"validityWindow":100000,"minUnitPrice":1,"unitPriceChangeDenominator":48,"windowTargetUnits":1000000000,"minBlockCost":0,"blockCostChangeDenominator":48,"windowTargetBlocks":1000000000,"warpBaseFee":1024,"warpFeePerSigner":128,"customAllocation":[{"address":"token1dazmw7uyq348280t2g783u85gelfl3rmta5dtxak2480td2c045qt539ds","balance":18446744073709551615}]}}
+[08-23|00:52:43.298] INFO controller/controller.go:151 running build and gossip in test mode
+[08-23|00:52:43.298] INFO vm/vm.go:288 initialized vm from genesis {"block": "2bYu7x5zH8ptfg8zgWdpXEoTBJAt2uZXhHgkgrR5ZKC3PVbHx6"}
+[08-23|00:52:43.299] INFO vm/vm.go:337 state sync client ready
+[08-23|00:52:43.299] INFO vm/vm.go:343 validity window ready
+[08-23|00:52:43.299] INFO vm/vm.go:349 node is now ready {"synced": false}
+[08-23|00:52:43.816] INFO chain/builder.go:277 built block {"hght": 1, "attempted": 1000, "added": 1000, "mempool size": 0, "mempool lock wait": "3.2µs", "context": false, "state changes": 1001, "state operations": 3000}
+[08-23|00:52:43.816] INFO chain/block.go:330 skipping verification, already processed {"height": 1, "blkID": "aiq9v53rkbDFRUp3awDkQZbeG7DmYiWR6b8X51n6qHANfW29N"}
+[08-23|00:52:43.816] INFO vm/resolutions.go:116 verified block {"blkID": "aiq9v53rkbDFRUp3awDkQZbeG7DmYiWR6b8X51n6qHANfW29N", "height": 1, "txs": 1000, "state ready": true}
+[08-23|00:52:43.819] INFO vm/resolutions.go:262 accepted block {"blkID": "aiq9v53rkbDFRUp3awDkQZbeG7DmYiWR6b8X51n6qHANfW29N", "height": 1, "txs": 1000, "size": 222284, "units": 472000, "dropped mempool txs": 0, "state ready": true}
+[08-23|00:52:43.821] INFO vm/resolutions.go:203 block processed {"blkID": "aiq9v53rkbDFRUp3awDkQZbeG7DmYiWR6b8X51n6qHANfW29N", "height": 1}
+[08-23|00:52:44.104] INFO chain/builder.go:277 built block {"hght": 2, "attempted": 1000, "added": 1000, "mempool size": 0, "mempool lock wait": "4.68µs", "context": false, "state changes": 865, "state operations": 3000}
+[08-23|00:52:44.104] INFO chain/block.go:330 skipping verification, already processed {"height": 2, "blkID": "2RvSBP8grY8Bq7r8USakVCtnfbhZ4yu4yYpErLyGXdSBc16MiN"}
+[08-23|00:52:44.105] INFO vm/resolutions.go:116 verified block {"blkID": "2RvSBP8grY8Bq7r8USakVCtnfbhZ4yu4yYpErLyGXdSBc16MiN", "height": 2, "txs": 1000, "state ready": true}
+[08-23|00:52:44.108] INFO vm/resolutions.go:262 accepted block {"blkID": "2RvSBP8grY8Bq7r8USakVCtnfbhZ4yu4yYpErLyGXdSBc16MiN", "height": 2, "txs": 1000, "size": 222284, "units": 472000, "dropped mempool txs": 0, "state ready": true}
+[08-23|00:52:44.109] INFO vm/resolutions.go:203 block processed {"blkID": "2RvSBP8grY8Bq7r8USakVCtnfbhZ4yu4yYpErLyGXdSBc16MiN", "height": 2}
+[08-23|00:53:24.188] INFO vm/resolutions.go:210 acceptor queue shutdown
+[08-23|00:53:24.188] INFO vm/warp_manager.go:101 stopping warp manager
